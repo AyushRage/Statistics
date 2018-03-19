@@ -6,12 +6,13 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
-        int [] element = new int[size];
-        int [] frequency = new int[size];
+        int [] element = new int[size]; /* Elements in the array */
+        int [] frequency = new int[size]; /* Frequency of occurence of the elements */
         for (int i = 0; i < size; i++) {
             element[i] = scan.nextInt();
         }
         
+        /* numElements represents the number of elements */
         int numElements = 0;
         for (int i = 0; i < size; i++) {
             frequency[i] = scan.nextInt();
